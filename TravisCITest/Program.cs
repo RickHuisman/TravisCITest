@@ -6,7 +6,7 @@ namespace TravisCITest
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("This is a test");
         }
 
         public static int Add(int num1, int num2)
