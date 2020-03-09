@@ -35,7 +35,7 @@ namespace TravisCIUnitTest
         
         [TestCase(1, 1, 1)]
         [TestCase(-5, 5, -1)]
-        [TestCase(100, 10, 10)]
+        [TestCase(100, 10, 0)]
         public void Divide_ReturnTrue(int num1, int num2, int expected)
         {
             var actual = Program.Divide(num1, num2);
